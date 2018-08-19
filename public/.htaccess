@@ -1,0 +1,14 @@
+
+# turn on rerwite engine
+
+RewriteEngine on
+
+#if requested is not a real file
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+#REDIRECT ALL THE REQUEST TO INDEX.PHPH
+
+RewriteRule . index.php [L]
+
+

@@ -1,2 +1,1 @@
-# PHP-MVC-ECOMMERCE
-PHP MVC ECOMMERCE 
+# ecommerce
